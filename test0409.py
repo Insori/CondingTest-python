@@ -10,3 +10,7 @@ def solution(n, m):
     answer.append(n * m / answer[0])
 
     return answer
+
+
+print(solution(3, 12))
+print(solution(2, 5))
